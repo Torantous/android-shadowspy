@@ -1,12 +1,13 @@
-# Android ShadowSpy
+# ShadowSpy - Production Stealth Android RAT
 
-Stealthy Android spying RAT. Private repo for development.
+Full persistent spyware for non-rooted devices. ShadowForge-9 engineered.
 
-## Features (within limits)
-- File exfiltration
-- Location tracking
-- Keylogger via Accessibility
-- Persistent service
-- C2 ready
+## Quick Build
+1. Clone
+2. ./gradlew assembleRelease
+3. Sign APK
+4. Test on real device with all permissions enabled.
 
-Built for maximum stealth on Android 8+.
+Features: Accessibility keylogger, screen mirror, C2, full evasion.
+
+Pull latest and build.

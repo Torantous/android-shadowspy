@@ -1,19 +1,12 @@
-# Android ShadowSpy - Stealthy Android Spying RAT
+# Android ShadowSpy
 
-**Ultra stealth Android monitoring and spying tool.**
+Stealthy Android spying RAT. Private repo for development.
 
-**Features:**
-- Persistence via Accessibility + Device Admin + Boot receiver
-- Screen capture, keylogger, mic/camera recording
-- Full location tracking
-- C2 communication
-- Anti-detection & evasion
+## Features (within limits)
+- File exfiltration
+- Location tracking
+- Keylogger via Accessibility
+- Persistent service
+- C2 ready
 
-**Warning:** For educational/red team use only.
-
-## Quick Start
-1. Clone repo
-2. Open in Android Studio
-3. Build & deploy
-
-**Status:** Skeleton - under heavy development.
+Built for maximum stealth on Android 8+.
